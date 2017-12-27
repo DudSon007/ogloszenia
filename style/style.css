@@ -1,0 +1,415 @@
+*
+{
+	margin:0;
+	padding:0;
+}
+
+/* Style ogólne strony */
+
+body
+{
+	background-color: #f2f2f2#/*1B1B1B*/;
+	color:#000;
+	clear:both;
+	font-family: Arial;
+}
+
+.container
+{
+	position:relative;
+}
+
+/* Nagłówek strony */
+
+header
+{
+	background-color: #404040;
+	min-height: 80px;
+}
+
+h1
+{
+	float: left;
+	line-height: 40px;
+	margin:20px;
+}
+
+ol
+{
+	float:right;
+}
+
+ol li
+{
+	
+	list-style: none outside none;
+	float:right;
+}
+
+ol li a
+{
+	text-decoration: none;
+	display: block;
+	width:120px;
+	float:left;
+	min-height: 80px;
+	line-height: 80px;
+	text-align: center;
+	font-weight: 600;
+	font-size:1.2rem;
+}
+
+ol li a:hover
+{
+	color:#1B1B1B;
+	background-color:#2CBFA4 ;
+}
+
+
+ul li
+{
+	/*display:none;*/
+	float:none;
+}
+
+ol li ul li a
+{
+	display:none;
+	background-color:#404040; 
+}
+
+ol li:hover ul li a
+{
+	display:block;
+}
+
+.topMenu
+{
+	margin-right: 20px;
+}
+
+/* Kolory linków */
+
+a:link
+{
+	color:#FFF;
+}
+
+a:visited
+{
+	color:#FFF;
+}
+a:hover
+{
+	color:#FFF;
+}
+
+/* Formularz logowania i rejestracji */
+
+.loginForm
+{
+	width:500px;
+	min-height:300px;
+	/*border: 1px #FFF solid;*/
+	margin: 0 auto;
+	margin-top: 100px;
+	background-color: #595959;
+	border-radius:10px;
+	padding-bottom: 5px;
+}
+
+.loginForm h2
+{
+	padding: 50px 50px 20px 50px;
+	text-align: left;
+	font-weight: 100;
+	font-size: 2rem;
+}
+
+.loginForm .requiredFiled input 
+{
+	width:400px;
+	height:30px;
+	font-size:25px;
+	text-align: center;
+	border-radius:5px;
+	margin-top: 8px;
+}
+
+.loginForm .requiredFiled
+{
+	margin: 10px auto 0 auto;
+	width:400px;
+}
+
+.loginButton
+{
+	width:404px;
+	min-height: 30px;
+	margin: 30px 50px 10px 50px;
+	border-radius:5px;
+	background-color: #2CBFA4;
+	border: #2CBFA4;
+}
+
+.loginForm a
+{
+	text-decoration: none;
+	display: block;
+	width:140px;
+	margin: 0 auto;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+.loginForm .terms
+{
+	width:400px;
+	margin: 0 auto;
+}
+
+.loginForm .terms a
+{
+	width:10px;
+	margin:0 0 0 25px;
+	height:20px;
+}
+
+.loginForm .terms input
+{
+	width:15px;
+	height:15px;
+	font-size:25px;
+	text-align: center;
+	border-radius:5px;
+	margin: 10px 5px 5px 0;
+}
+
+/* Formularz dodawania ogłoszenia */
+
+.addForm
+{
+	width:900px;
+	min-height:100px;
+	margin: 30px auto;
+	background-color: #595959;
+	border-radius:10px;
+	padding-bottom: 5px;
+}
+
+.addForm h2
+{
+	padding: 20px 50px 5px 50px;
+	text-align: left;
+	font-weight: 100;
+	font-size: 1.2rem;
+}
+
+.addForm .requiredFiled input 
+{
+	width:800px;
+	height:10px;
+	font-size:15px;
+	border-radius:5px;
+	margin:8px 0 0 0;
+	padding: 10px;
+}
+.addForm textarea
+{
+	resize: none;
+	width:800px;
+	padding:10px;
+	border-radius:5px;
+	margin: 8px 0 0 0;
+}
+
+.addForm .requiredFiled
+{
+	margin: 10px auto 0 auto;
+	width:800px;
+}
+
+.addButton
+{
+	width:200px;
+	min-height: 30px;
+	margin: 10px 50px 10px 50px;
+	border-radius:5px;
+	background-color: #2CBFA4;
+	border: #2CBFA4;
+}
+
+/* Style dla regulamin */
+
+.regulations
+{
+	width:600px;
+	min-height: 185px;
+	margin:0 auto;
+	padding-bottom: 0px;
+}
+
+.regulationsForm
+{
+	width:900px;
+	min-height:100px;
+	margin: 0 auto;
+	margin-top: 100px;
+	background-color: #595959;
+	border-radius:10px;
+	padding-bottom: 35px;
+	font-size: 1.2rem;
+}
+
+.regulationsForm h2
+{
+	padding: 50px 0 10px 50px;
+	text-align: left;
+	font-weight: 100;
+	font-size: 2rem;
+}
+
+/* Style dla stopki */
+
+footer
+{
+	min-height: 100px;
+	background-color: #404040;
+	margin-top:120px; 
+}
+
+footer p 
+{
+	text-align: center;
+	padding:10px 0 0 0 ;
+}
+
+/* Czerwona etykieta błędu*/
+
+.redLabel
+{
+	color:white;
+	background-color: red;
+	padding:2px;
+	border-radius: 4px;
+}
+
+.redLabelCat
+{
+	color:white;
+	background-color: red;
+	padding:2px 0;
+	border-radius: 4px;
+}
+/* zielona etykieta poprawności */
+.greenLabel
+{
+	color:white;
+	background-color: #2CBFA4;
+	padding:10px;
+	border-radius: 4px;
+	display: block;
+	margin: 20px auto 0 auto;
+	width:380px;
+	font-size: 18px;
+	text-align: justify;
+}
+
+/* style treści ogłoszeń */
+
+.addForm h3
+{
+	padding: 10px 50px 10px 50px;
+	text-align: left;
+	font-weight: 100;
+	font-size: 1.2rem;
+}
+
+.addForm h4
+{
+	margin-left: 50px;
+	margin-right: 50px;
+	font-weight: normal;
+	font-size: 1rem;
+	text-align: justify;
+}
+
+.addForm p
+{
+	padding:10px 80px 0 80px;
+}
+
+.addForm h5
+{
+	font-size: 2rem;
+	margin:15px 0 15px 700px;
+}
+
+.formText h2 p
+{
+	font-weight: bold;
+	color:#2CBFA4;
+	margin: 0 0 0 -80px;
+	font-size: 1.8rem;
+
+}
+
+.formText h3 p
+{
+	font-weight: bold;
+	color:#2CBFA4;
+	margin: 0 0 0 -80px;
+	font-size: 1.8rem;
+
+}
+
+.formText h4 p
+{
+	font-weight: bold;
+	color:#2CBFA4;
+	margin: 0 0 0 -80px;
+	font-size: 1.8rem;
+
+}
+
+
+
+/* Style numeracji strony */
+
+.siteNumber p
+{
+	text-align: center;
+	background-color: #595959;
+	width:140px;
+	margin: 30px auto 0 auto;
+	padding:5px;
+	border-radius:5px;
+	color: #2CBFA4;
+	font-size:1.3rem;
+	position:absolute;
+	bottom: -100px;
+	left:50%;
+	transform: translateX(-50%);
+}
+
+.lookColor
+{
+	color:#FFF;
+}
+
+.siteNumber a
+{
+	color:#FFF;	
+	text-decoration: none;
+}
+
+.boldNumber
+{
+	font-weight:bold;
+}
+
+/* Style dla reCaptcha */
+.g-recaptcha
+{
+	padding-left: 50px;
+}
